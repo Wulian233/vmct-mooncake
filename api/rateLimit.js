@@ -1,7 +1,7 @@
 import { getRateLimitData, setRateLimitData } from './storage';
 
-const MAX_CLICKS_PER_WINDOW = 5; // 定义在某个时间窗口内的最大点击数
-const TIME_WINDOW = 5000; // 定义时间窗口（5秒）
+const MAX_CLICKS_PER_WINDOW = 8; // 定义在某个时间窗口内的最大点击数
+const TIME_WINDOW = 3000; // 定义时间窗口（3秒）
 
 export async function rateLimit(ip) {
     const now = Date.now();
