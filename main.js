@@ -4,7 +4,7 @@ const sound = new Howl({
 
 const bgm = new Howl({
   src: [
-      "https://music.163.com/song/media/outer/url?id=1983466731.mp3",
+      "https://music.163.com/song/media/outer/url?id=396885.mp3",
   ],
   html5: true,
   loop: true,

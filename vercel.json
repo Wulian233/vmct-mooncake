@@ -1,5 +1,4 @@
 {
-  "framework": "None",
   "headers": [
     {
       "source": "/assets/(.*)",
